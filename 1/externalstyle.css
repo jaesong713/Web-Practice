@@ -1,0 +1,114 @@
+.bluecentered {
+	text-align: center;
+	color: blue;
+}
+
+.brightbluecentered {
+	text-align: center;
+	color: lightskyblue;
+	background: dimgrey;
+	border-style: outset;
+}
+
+.yellowcentered {
+	text-align: center;
+	color: greenyellow;
+	background: dimgrey;
+	border-style: outset;
+}
+
+.redcentered {
+	text-align: center;
+	color: red;
+}
+
+.greencentered {
+	text-align: center;
+	color: green;
+}
+
+.orangecentered {
+	text-align: center;
+	color: orange;
+}
+
+.borderorangecentered {
+	text-align: center;
+	color: darkorange;
+ 	background: dimgrey;
+	border: dashed;
+	border-color: ghostwhite;
+	border-style: outset;
+}
+
+.whitecentered {
+	text-align: center;
+	color: whitesmoke;
+}
+
+.imageresize {
+	width: 300;
+	height: 500;
+}
+
+.brightgreencentered {
+	text-align: center;
+	color: palegreen;
+	background: dimgrey;
+	border-style: outset;
+}
+
+.borderdarkblue {
+	text-align: center;
+	color: darkblue;
+	border: dashed;
+	border-style: outset;
+	background: dimgrey;
+	border-color: ghostwhite;
+}
+
+.blackcentered {
+	text-align: center;
+	color: black;
+	border: dotted;
+	border-color: palegreen;
+}
+
+.darkgreencentered {
+	text-align: center;
+	color: forestgreen;
+}
+
+.roundfifty {
+	border-radius: 2%;
+	border: 5px ridge black;
+}
+
+img { 
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	text-align:center;
+	display:block;
+}
+
+ul {
+	display: table;
+ 	margin: 0 auto;
+	text-align: center;
+	background: whitesmoke;
+	border-style: inset;
+}
+
+
+ol {
+	display: table;
+ 	margin: 0 auto;
+	text-align: center;
+	background: whitesmoke;
+	border-style: inset;
+}

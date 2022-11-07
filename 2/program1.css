@@ -1,0 +1,325 @@
+/* ul {
+	align-content: center;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+li {
+
+}
+
+li a {
+
+}
+
+li a:hover {
+	background-color: lime;
+} 
+*/ 
+/*
+  .mytable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgoldenrodyellow;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+*/
+/* 
+div {
+  width: 60px;
+  padding: 8px;
+  border: 5px solid gray;
+  margin: 0;
+  background-color: palegoldenrod;
+  color: darkkhaki;
+}
+*/ 
+p {
+  display: inline-block;
+}
+body { 
+      background: #FFCC00;
+      background-size: 100%;
+      background-position: center;
+    }
+
+.divide {
+  width: 60px;
+  padding: 8px;
+  border: 5px solid gray;
+  margin: 0;
+  background-color: palegoldenrod;
+  border-right: 20px solid midnightblue;
+  color: midnightblue;
+  display: inline-block;
+}
+
+.headeralmond {
+	background-color: blanchedalmond;
+	border: solid;
+	border-style: outset;
+	border-width: 4px;
+	text-align: center;
+	width: 100%;
+	font-family: Garamond;
+}
+
+.headeralmond2 {
+	background-color: blanchedalmond;
+	border: solid;
+	border-style: outset;
+	border-width: 4px;
+	text-align: center;
+	width: 100%;
+	font-family: Garamond;
+}
+
+.whitepar {
+	background: white;
+	border: solid;
+	border-style: inset;
+	border-width: 4px;
+	width: 100%;
+	font-family: Garamond;
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: blanchedalmond;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: bisque;
+  color: black;
+  text-shadow: brown;
+
+}
+
+.whiteback {
+  background-color: #F0F0F0;
+  text-decoration-color: #A4A400;
+  text-align: center;
+  color: darkkhaki;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+table, th, td {
+    border: 2px solid white;
+    align-content: center;
+    border-collapse: collapse;
+    height: 25px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.georg {
+  font-family: Georgia;
+}
+
+.georg2 {
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.nutrientcol {
+  background-color: #003366;
+  font-family: Verdana;
+  text-align: center;
+  color: #FFFFFF;
+  width: 20%;
+}
+/*
+.amountcol {
+  background-color: #003366;
+  font-family: Verdana;
+  align-content: center;
+  color: #FFFFFF;
+  width: 5%;
+}
+*/
+.nutcol {
+  background-color: #003366;
+  font-family: Verdana;
+  text-align: center;
+  color: #FFFFFF;
+  width: 2.2%;
+  font-weight: bold;
+}
+
+.amountcol {
+  background-color: #003366;
+  font-family: Verdana;
+  text-align: center;
+  color: #FFFFFF;
+  width: .6%;
+  font-weight: bold;
+}
+.dvcol {
+  background-color: #003366;
+  font-family: Verdana;
+  align-content: center;
+  color: #FFFFFF;
+  width: .01%;
+  font-weight: bold;
+}
+
+.worlcol {
+  background-color: #003366;
+  font-family: Verdana;
+  text-align: justify;
+  color: #FFFFFF;
+  width: 2.8%;
+  font-weight: bold;
+}
+.amountcol2 {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: justify;
+  color: #FFFFFF;
+  width: .6%;
+}
+
+.dvcol2 {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: left;
+  color: #FFFFFF;
+  width: .01%;
+}
+
+.nutcol2 {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: left;
+  color: #FFFFFF;
+  width: 2.2%;
+}
+
+.worlcol2 {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: justify;
+  color: #FFFFFF;
+  width: 2.8%;
+}
+
+.excellent {
+  background-color: #003366;
+  font-family: Verdana;
+  align-content: center;
+  color: #FFFFFF;
+  width: .05%;
+  font-weight: bold;
+}
+
+.verygood {
+  background-color: #003366;
+  font-family: Verdana;
+  align-content: center;
+  color: #FFFFFF;
+  width: .05%;
+  font-weight: bold;
+}
+
+.good {
+  background-color: #003366;
+  font-family: Verdana;
+  align-content: center;
+  color: #FFFFFF;
+  width: .05%;
+  font-weight: bold;
+}
+
+.twocol3{
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: center;
+  color: #FFFFFF;
+  width: .25%;
+}
+
+.threecol3 {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: center;
+  color: #FFFFFF;
+  width: .05%;
+}
+
+.fourcol3 {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: center;
+  color: #FFFFFF;
+  width: .27%;
+}
+
+.fivecol3 {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: center;
+  color: #FFFFFF;
+  width: .05%;
+}
+
+.sixcol {
+  background-color: #CC9933;
+  font-family: Georgia;
+  text-align: center;
+  color: #FFFFFF;
+  width: .3%;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}

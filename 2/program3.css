@@ -1,0 +1,92 @@
+table, th, td {
+    border: 2px solid gainsboro;
+    align-content: center;
+    border-collapse: collapse;
+    height: 25px;
+    padding: 5px;
+    margin-top: 20px;
+    font-family: Trebuchet MS;
+    width: 50%;
+    /* This will adjust the table to the center */
+    margin-left: auto;
+    /*margin-right: auto;*/
+}
+
+body {
+		background-image: url('jjampong2.jpeg');
+		background-size: 23%;
+		background-repeat: repeat;
+		background-attachment: fixed
+	}
+
+ul {
+	list-style-image: url('food6.png');
+}
+
+.goleft {
+	float:  left;
+	border: 4x solid gray;
+	border-style: outset;
+	border-radius: 40px;
+}
+
+.goright {
+	float: right;
+	border-radius: 6px;
+	border: 4px solid gray;
+	border-style: outset;
+}
+
+.redhead {
+	background: white;
+	text-align: center;
+	color: orangered;
+	border: 4px solid gray;
+	border-style: outset;
+	box-shadow: black;
+	font-family: Trebuchet MS;
+}
+
+.redhead2 {
+	background: white;
+	text-align: center;
+	color: orangered;
+	border: 4px solid gainsboro;
+	border-style: outset;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lightsalmon {
+	background: lightsalmon;
+	border: 3px solid gainsboro;
+	border-style: inset;
+	padding: 20px;
+	font-family: Trebuchet MS;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whip {
+	background: papayawhip;
+	padding: 5px;
+	margin-left: 30px;
+	font-family: Trebuchet MS;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whip2 {
+	background: papayawhip;
+	padding: 5px;
+	margin-left: 30px;
+	font-family: Trebuchet MS;
+	width: 50%;
+	border: 2px solid gainsboro;
+	border-style: inset;
+}
+
+.

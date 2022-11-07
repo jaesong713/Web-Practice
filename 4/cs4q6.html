@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "cw4style.css">
+    <meta charset="UTF-8">
+    <title>Classwork 6 Question 6</title>
+
+      <script>
+        function changeBack() {
+          var bColor = prompt("What color would you like for the background? <br> Please use basic colors!");
+          switch(bColor) {
+            case "red":
+              document.getElementById("theBack").style.backgroundColor = "red";
+              break;
+            case "blue":
+              document.getElementById("theBack").style.backgroundColor = "blue";
+              break;
+            case "green":
+              document.getElementById("theBack").style.backgroundColor = "green";
+              break;
+            case "yellow":
+              document.getElementById("theBack").style.backgroundColor = "yellow";
+              break;
+            case "orange":
+              document.getElementById("theBack").style.backgroundColor = "orange";
+              break;
+            case "purple":
+              document.getElementById("theBack").style.backgroundColor = "purple";
+              break;
+            case "limegreen":
+              document.getElementById("theBack").style.backgroundColor = "limegreen";
+              break;
+            case "pink":
+              document.getElementById("theBack").style.backgroundColor = "pink";
+              break;
+            case "maroon":
+              document.getElementById("theBack").style.backgroundColor = "maroon";
+              break;
+            case "grey":
+              document.getElementById("theBack").style.backgroundColor = "grey";
+              break;
+            case "aqua":
+              document.getElementById("theBack").style.backgroundColor = "aqua";
+              break;
+            case "plum":
+              document.getElementById("theBack").style.backgroundColor = "plum";
+              break;
+            case "salmon":
+              document.getElementById("theBack").style.backgroundColor = "salmon";
+              break;
+            case "silver":
+              document.getElementById("theBack").style.backgroundColor = "silver";
+              break;
+            case "tan":
+              document.getElementById("theBack").style.backgroundColor = "tan";
+              break;
+            default:
+              changeBack();
+          }
+        }
+        function changeText() {
+          var tColor = prompt("What color would you like to change the text to?");
+          switch (tColor) {
+            case "red":
+              document.getElementById("theText").style.color = "red";
+              break;
+            case "blue":
+              document.getElementById("theText").style.color = "blue";
+              break;
+            case "green":
+              document.getElementById("theText").style.color = "green";
+              break;
+            case "yellow":
+              document.getElementById("theText").style.color = "yellow";
+              break;
+            case "orange":
+              document.getElementById("theText").style.color = "orange";
+              break;
+            case "purple":
+              document.getElementById("theText").style.color = "purple";
+              break;
+            case "limegreen":
+              document.getElementById("theText").style.color = "limegreen";
+              break;
+            case "pink":
+              document.getElementById("theText").style.color = "pink";
+              break;
+            case "maroon":
+              document.getElementById("theText").style.color = "maroon";
+              break;
+            case "grey":
+              document.getElementById("theText").style.color = "grey";
+              break;
+            case "aqua":
+              document.getElementById("theText").style.color = "aqua";
+              break;
+            case "plum":
+              document.getElementById("theText").style.color = "plum";
+              break;
+            case "salmon":
+              document.getElementById("theText").style.color = "salmon";
+              break;
+            case "silver":
+              document.getElementById("theText").style.color = "silver";
+              break;
+            case "tan":
+              document.getElementById("theText").style.color = "tan";
+              break;
+            default:
+              changeText();
+          }
+        }
+    </script>
+
+</head>
+<body id = "theBack">
+<div id = "theText">
+  <h1>This page will take a general color input and make changes to the color of the corresponding platforms!</h1>
+  <p class = "heads2">
+    Dashing through the snow <br>
+    On a one horse open sleigh <br>
+    O'er the fields we go, <br>
+    Laughing all the way <br>
+    Bells on bob tail ring, <br>
+    making spirits bright <br>
+    What fun it is to laugh and sing <br>
+    A sleighing song tonight <br>
+    <br>
+    Oh, jingle bells, jingle bells <br>
+    Jingle all the way <br>
+    Oh, what fun it is to ride <br>
+    In a one horse open sleigh <br>
+    Jingle bells, jingle bells <br>
+    Jingle all the way <br>
+    Oh, what fun it is to ride <br>
+    In a one horse open sleigh
+  </p>
+  <button onclick = "changeBack()">Change Background Color</button>
+  <button onclick = "changeText()">Change Text Color</button>
+</div>
+
+</body>
+</html>

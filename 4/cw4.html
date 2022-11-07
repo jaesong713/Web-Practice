@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Classwork4</title>
+  <link rel = "stylesheet" href = "cw4style.css">
+</head>
+<body>
+  <div>
+    <div>
+      <h1 class = "heads">Problem 1)</h1>
+      <h2>How many terms would you like to calculate for the Fibonacci sequence?</h2>
+      <br>
+      <input type = "number" id = "fibo" name = "fibo">
+      <button onclick="fibonacci()">Calculate</button>
+      <p id = "fiboanswer"></p>
+    </div>
+
+    <br>
+
+    <div>
+      <h1 class = "heads">Problem 2)</h1>
+      <h2>Would you like to see a cool star pattern?</h2>
+      <br>
+      <button onclick = "stars()">Go!</button>
+      <p id = "stardisplay"></p>
+      <p id = "stardisplay2"></p>
+      <p id = "stardisplay3"></p>
+      <p id = "stardisplay4"></p>
+      <p id = "stardisplay5"></p>
+    </div>
+
+    <div>
+      <h1 class = "heads">Question 3)</h1>
+      <h2>Now let's sort an array!</h2>
+      <button onclick = "arrAmount()">Display Array(s)!</button>
+      <p id = "arraybefore"></p>
+      <p id = "arraysorted"></p>
+    </div>
+
+    <div>
+      <h1 class = "heads">Problem 4)</h1>
+      <h2>Click the corresponding button(s) to your desires!
+      <br> This portion will return the the most occuring element!</h2>
+      <button onclick = "ogArray()">Display original array</button>
+      <p id = "ogArray"></p>
+      <button onclick = "mostArray()">See the most occuring element!</button>
+      <p id = "mostinArr"></p>
+    </div>
+
+    <div>
+      <h1 class = "heads">Problem 5)</h1>
+      <h2>Click the corresponding button(s) to your desires!</h2>
+        <button onclick = "randomarr()">Display original array</button>
+      <p id = "randomog"></p>
+        <button onclick = "randoming()">Randomize!</button>
+      <p id = "randomafter"></p>
+    </div>
+
+  </div>
+
+  <script>
+    function fibonacci() {
+      var n = document.getElementById("fibo").value;
+      let zero = 0, one = 1, temp;
+        for (var i = 1; i <= n; i++) {
+          console.log(zero);
+          temp = zero + one;
+          zero = one;
+          one = temp;
+        }
+      document.getElementById("fiboanswer").innerHTML = zero;
+    }
+
+    function stars() {
+        document.getElementById("stardisplay").innerHTML = "*";
+        document.getElementById("stardisplay2").innerHTML = "**";
+        document.getElementById("stardisplay3").innerHTML = "***";
+        document.getElementById("stardisplay4").innerHTML = "****";
+        document.getElementById("stardisplay5").innerHTML = "*****";
+      }
+
+    function arrAmount() {
+      const arr1 = [450, 2, 3, 65, 7, 23, 4958, 23, 402, 384, 574, 33, 25];
+      document.getElementById("arraybefore").innerHTML =  "This is the original array! <br>" + arr1;
+
+      arr1.sort(function(a, b){return a - b});
+      document.getElementById("arraysorted").innerHTML = "This is the sorted array! <br>" + arr1;
+    }
+    function randomarr() {
+      const arr2 = [-1, -2, -3, -4, 1, 2, 3, 4, 5, 6, 7];
+      document.getElementById("randomog").innerHTML = arr2;
+    }
+    function randoming() {
+      const arr3 = [-1, -2, -3, -4, 1, 2, 3, 4, 5, 6, 7];
+      arr3.sort(function(){return 0.5 - Math.random()});
+      document.getElementById("randomafter").innerHTML = arr3;
+    }
+
+    function ogArray() {
+      const arr4 = ['d', 'a', 'n', 'i', 'e', 'l', 'l', 'e', 'e'];
+      document.getElementById("ogArray").innerHTML = arr4;
+    }
+
+    function mostArray() {
+      const arr5 = ['d', 'a', 'n', 'i', 'e', 'l', 'l', 'e', 'e'];
+      var zer = 0; var on = 1; var item;
+      for (var k = 0; k < arr5.length; k++) {
+        for (var l = k; l < arr5.length; l++) {
+          if (arr5[k] == arr5[l])
+            zer++;
+          if (on < zer) {
+            on = zer;
+            item = arr5[k];
+          }
+        }
+        zer = 0;
+      }
+      document.getElementById("mostinArr").innerHTML = item + " has occured " + on + " times!";
+    }
+
+
+  </script>
+</body>
+</html>
